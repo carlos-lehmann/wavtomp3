@@ -29,19 +29,25 @@ the pydub module uses ffmpeg for the conversion, so you'll need to install it:
 
 2a. without metadata 
 
-> conversion
+> conversion starts
+
+> program finished!
 
 2b. with metadata
 
 > choose release title
+
 > choose choose artwork
+
 > choose genre
 
 3b. for the next file you will be asked if you want to reuse the metadata
 
 YES
 
-> conversion
+> conversion starts
+
+> program finished!
 
 NO
 
