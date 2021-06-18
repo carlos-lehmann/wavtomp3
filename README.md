@@ -23,7 +23,7 @@ the pydub module uses ffmpeg for the conversion, so you'll need to install it:
 
 1.
 
-> Choose a folder\n
+> Choose a folder
 > Choose whether to add additional metadata
 
 2a. without metadata 
