@@ -10,9 +10,9 @@
 ### Prereqs
 the pydub module uses ffmpeg for the conversion, so you'll need to install it:
 
-[mac](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/wiki/Installing-ffmpeg-on-Mac-OS-X)
-[windows](https://windowsloop.com/install-ffmpeg-windows-10/)
-[linux](https://linuxize.com/post/how-to-install-ffmpeg-on-debian-9/)
+- [mac](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/wiki/Installing-ffmpeg-on-Mac-OS-X)
+- [windows](https://windowsloop.com/install-ffmpeg-windows-10/)
+- [linux](https://linuxize.com/post/how-to-install-ffmpeg-on-debian-9/)
 
 ### Default settings
 - files are expected in format "artist - tracktitle.wav"
