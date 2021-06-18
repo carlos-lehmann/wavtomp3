@@ -8,7 +8,7 @@ from pydub import AudioSegment
 d = {}
 counter = 1
 genre_pick = ""
-genre_list_file = "/Users/carlos/pythonshizzle/carlos-programs/genre-list.txt"
+genre_list_file = "genre-list.txt"
 artwork_set = False
 title_set = False
 genre_set = False
@@ -266,15 +266,6 @@ else:
     else:
         cancelled = True
         messagebox.showinfo(title="Failure!",message="Problem fetching correct directory! Program closed!")
-
-# for x in d:
-#     print("Path: "+str(d[x]['Path']))
-#     print("Artist: "+str(d[x]['Artist']))
-#     print("Trackname: "+str(d[x]['Trackname']))
-#     print("Title: "+str(d[x]['Title']))
-#     print("Artpath: "+str(d[x]['Artpath']))
-#     print("Mime-Type: "+str(d[x]['Mime-Type']))
-#     print("Genre: "+str(d[x]['Genre']))
 
 if not cancelled:
     parent = tkinter.Toplevel(root)
