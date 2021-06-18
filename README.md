@@ -4,8 +4,8 @@
 ## Optionally will also save additional metadata to the mp3 like Artwork, Release Title or Genre
 
 ### special modules used
-id3 tags: https://github.com/nicfit/eyeD3
-conversion: https://github.com/jiaaro/pydub
+- id3 tags: https://github.com/nicfit/eyeD3
+- conversion: https://github.com/jiaaro/pydub
 
 ### Prereqs
 the pydub module uses ffmpeg for the conversion, so you'll need to install it:
