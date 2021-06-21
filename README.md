@@ -3,12 +3,12 @@
 ## Converts a choosen folder with wav files into an mp3
 ### Optionally will also save additional metadata to the mp3 like Artwork, Release Title or Genre
 
-### Special modules used
+### Packages used
 - id3 tags: https://github.com/nicfit/eyeD3
 - conversion: https://github.com/jiaaro/pydub
 
 ### Prereqs
-the pydub module uses ffmpeg for the conversion, so you'll need to install it:
+the pydub package uses ffmpeg for the conversion, so you'll need to install it:
 
 - [mac](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/wiki/Installing-ffmpeg-on-Mac-OS-X)
 - [windows](https://windowsloop.com/install-ffmpeg-windows-10/)
@@ -16,7 +16,7 @@ the pydub module uses ffmpeg for the conversion, so you'll need to install it:
 
 ### Default settings
 - files are expected in format "artist - tracktitle.wav"
-- file artist & tracktile will be used as minimal configuration metadata for the id3 tags
+- the above information will be used as minimal configuration metadata for the id3 tags
 - bitrate is hard coded to 320k
 - files will be exported to the same directory as the wav files
 
