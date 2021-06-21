@@ -30,11 +30,11 @@ the pydub package uses ffmpeg for the conversion, so you'll need to install it:
 
 2a. without metadata 
 
-> conversion starts
+> conversion starts & id3 tags are written (artist / tracktitle & year) to all files
 
 > program finished!
 
-2b. with metadata
+2b. with metadata for the first file
 
 > choose release title
 
@@ -42,14 +42,16 @@ the pydub package uses ffmpeg for the conversion, so you'll need to install it:
 
 > choose genre
 
-3b. for the next file you will be asked if you want to reuse the metadata
+3b. for each next file you will be asked if you want to reuse the metadata
 
 YES
-
-> conversion starts
-
-> program finished!
+> next file
 
 NO
 
 > start again at 2b.
+
+4b. once all files metadata information is collected
+> conversion starts & id3 tags are written
+
+> program finished!
