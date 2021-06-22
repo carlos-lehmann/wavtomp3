@@ -1,4 +1,5 @@
 __pycache__/
 build/
+dist/wavtomp3_mac.app
 wavtomp3.spec
 .DS_Store
