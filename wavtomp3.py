@@ -1,5 +1,6 @@
 import eyed3
 import os
+import sys
 import tkinter
 from tkinter import filedialog,messagebox,simpledialog,StringVar,IntVar,OptionMenu,Button,Frame,BOTH,Label
 from datetime import datetime
@@ -8,7 +9,6 @@ from pydub import AudioSegment
 d = {}
 counter = 1
 genre_pick = ""
-genre_list_file = "genre-list.txt"
 artwork_set = False
 title_set = False
 genre_set = False
@@ -74,6 +74,11 @@ def convert_func(dir_folder,file,input_format,output_format):
         print("Something went wrong, with: "+file+" in directory: "+dir_folder)
         return False
 
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+    return os.path.join(base_path, relative_path)
+
 class Window(Frame):
     def __init__(self, master=None):
         Frame.__init__(self, master)
@@ -99,6 +104,8 @@ else:
             while True:
 
                 if metadata_min_func(dirname,list_dir):
+
+                    genre_list_file = resource_path("genre-list.txt")
 
                     MsgBox = messagebox.askyesnocancel('Metadata','Do you want to add Metadata: Artwork, Release Title and Genre?\n\n If you choose No, conversion will start with just Artist & Trackname')
                     
@@ -127,6 +134,8 @@ else:
                                     else:
                                         d[x]['Title'] = titlename
                                         title_set = True
+
+                                        messagebox.showinfo(title="Choose Artwork",message="Please choose artwork!")
                                         
                                         art_filename = filedialog.askopenfile(parent=root,initialdir=dirname,mode='r',title='Please choose artwork')
                                         if not art_filename:
@@ -178,6 +187,10 @@ else:
                                                 top.wait_variable(ok_var)
                                                 d[x]['Genre'] = genre_pick
                                                 genre_set = True
+
+                                                if genre_set:
+                                                    d[x]['All-Metadata'] = True
+                                                    top.destroy()
                             else:        
                                 #ask for album name
                                 titlename = simpledialog.askstring(fulltrackname, "Enter Release Title please: ",parent=root)
@@ -188,6 +201,8 @@ else:
                                 else:
                                     d[x]['Title'] = titlename
                                     title_set = True
+
+                                    messagebox.showinfo(title="Choose Artwork",message="Please choose artwork!")
                                     
                                     art_filename = filedialog.askopenfile(parent=root,initialdir=dirname,mode='r',title='Please choose artwork')
                                     if not art_filename:

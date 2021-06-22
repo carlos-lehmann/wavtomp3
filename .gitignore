@@ -1,3 +1,4 @@
 __pycache__/
 build/
 wavtomp3.spec
+.DS_Store
