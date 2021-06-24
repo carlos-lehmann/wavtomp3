@@ -18,7 +18,8 @@ the pydub package uses ffmpeg for the conversion, so you'll need to install it:
 - files are expected in format "artist - tracktitle.wav"
 - the above information will be used as minimal configuration metadata for the id3 tags
 - bitrate is hard coded to 320k
-- files will be exported to the same directory as the wav files
+- files will be exported to the same directory as the wav file location
+- Default genre when choosing Metadata is Drum & Bass (because I like it ;-))
 
 ### Flow
 
