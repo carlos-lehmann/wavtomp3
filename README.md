@@ -63,7 +63,7 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 
 you'll be asked if you want to reuse the metadata. If any of the above Metadata changes, please press No and go through the same process again.
 
-<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Pick-Genre.gif?raw=true" alt="Pick Genre" />
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Reuse-Metadata.gif?raw=true" alt="Reuse Metadata" />
 
 ### Convert & Save MP3
 
