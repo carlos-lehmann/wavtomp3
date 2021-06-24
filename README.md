@@ -1,7 +1,7 @@
 # wavtomp3
 
 ## Converts a choosen folder with wav files into an mp3
-### Optionally will also save additional metadata to the mp3 like Artwork, Release Title or Genre
+### Optionally will also save additional metadata to the mp3 like Artwork, Release Title and Genre
 
 ### Packages used
 - id3 tags: https://github.com/nicfit/eyeD3
