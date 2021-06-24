@@ -8,7 +8,7 @@
 - conversion: https://github.com/jiaaro/pydub
 
 ### Prereqs
-the pydub package uses ffmpeg for the conversion, so you'll need to install it:
+the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to install</b> it:
 
 - [mac](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/wiki/Installing-ffmpeg-on-Mac-OS-X)
 - [windows](https://windowsloop.com/install-ffmpeg-windows-10/)
@@ -21,40 +21,58 @@ the pydub package uses ffmpeg for the conversion, so you'll need to install it:
 - files will be exported to the same directory as the wav file location
 - Default genre when choosing Metadata is Drum & Bass (because I like it ;-))
 
-### Download, Execute App & App Flow
+### Download, Execute App
 
-![Download & Unarchive](https://j.gifs.com/lR5835.gif)
+#### Download & Unarchive
 
-1.
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Download-Unarchive.gif?raw=true" alt="Download & Unarchive" />
 
-> Choose a folder
+#### Allow App to Execute
 
-> Choose whether to add additional metadata
+    sudo spctl --master-disable
 
-2a. without metadata 
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Allow-Executable.gif?raw=true" alt="Allow App to Execute" />
 
-> conversion starts & id3 tags are written (artist / tracktitle & year) to all files
+#### Execute App
 
-> program finished!
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Execute-App.gif?raw=true" alt="Execute App" />
 
-2b. with metadata for the first file
+### App Flow
 
-> choose release title
+#### Choose Folder
 
-> choose choose artwork
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Choose-Wav-Folder.gif?raw=true" alt="Choose Folder" />
 
-> choose genre
+#### Add Metadata (Yes/No)
 
-3b. for each next file you will be asked if you want to reuse the metadata
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Add-Metadata.gif?raw=true" alt="Add Metadata" />
 
-YES
-> next file
+#### Release Title (Metadata Yes)
 
-NO
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Add-Release-Title.gif?raw=true" alt="Release Title" />
 
-> start again at 2b.
+#### Choose Artwork (Metadata Yes)
 
-4b. once all files metadata information is collected
-> conversion starts & id3 tags are written
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Choose-Artwork.gif?raw=true" alt="Choose Artwork" />
 
-> program finished!
+#### Pick Genre (Metadata Yes)
+
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Pick-Genre.gif?raw=true" alt="Pick Genre" />
+
+#### Reuse Metadata (Yes/No)
+
+you'll be asked if you want to reuse the metadata. If any of the above Metadata changes, please press No and go through the same process again.
+
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Pick-Genre.gif?raw=true" alt="Pick Genre" />
+
+### Convert & Save MP3
+
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Convert-Save-MP3.gif?raw=true" alt="Convert & Save" />
+
+### Result
+
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Finished-Conversion.png?raw=true" alt="Result" />
+
+### Don't forget to undo your changes for the executable
+
+    sudo spctl --master-enable
