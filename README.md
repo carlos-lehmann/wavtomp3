@@ -23,7 +23,7 @@ the pydub package uses ffmpeg for the conversion, so you'll need to install it:
 
 ### Download, Execute App & App Flow
 
-![Download & Unarchive](https://gifs.com/gif/lR5835)
+![Download & Unarchive](https://j.gifs.com/lR5835.gif)
 
 1.
 
