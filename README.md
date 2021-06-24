@@ -43,8 +43,8 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 Next wav file will be processed...
 
 #### Reuse Metadata (Yes/No)
-<ins>Yes</ins> > Repeat until all files processed > [Convert & Save MP3](#convert)
-<ins>No</ins> > Start Metadata process again > [Reuse Metadata](#reuse)
+- <ins>Yes</ins> > Repeat until all files processed > [Convert & Save MP3](#convert)
+- <ins>No</ins> > Start Metadata process again > [Reuse Metadata](#reuse)
 
 ### Metadata No
  
