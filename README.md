@@ -40,16 +40,17 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 - [Choose Release Title](#choose_title)
 - [Choose Artwork](#choose_artwork) 
 - [Pick Genre](#pick_genre) 
-- <b>Reuse Metadata (Yes/No)</b>
-- <b>Yes</b> Next track
-- [<b>No</b> start Metadata process again](#reuse)
 
-<b>All wav files processed</b> > [Convert & Save MP3](#convert)
+<b>Next wav file will be processed...</b>
+
+#### Reuse Metadata (Yes/No)
+  <b>Yes</b> Repeat until all files processed > [Convert & Save MP3](#convert)
+  [<b>No</b> start Metadata process again](#reuse)
 
 #### No
  
-3. [Convert & Save MP3](#convert)
-4. [Result](#result)
+2. [Convert & Save MP3](#convert)
+3. [Result](#result)
   
 <a name="download_unarchive"/></a>
 #### Download & Unarchive
