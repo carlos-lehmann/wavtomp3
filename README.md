@@ -22,10 +22,10 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 - Default genre when choosing Metadata is Drum & Bass (because I like it ;-))
 
 ### Download, Execute App (MacOS)
-
-##### Table of Contents  
+ 
 [Download & Unarchive](#download_unarchive)  
 [Allow App to Execute](#allow_app)  
+[Execute App](#execute_app)  
 
 <a name="download_unarchive"/></a>
 #### Download & Unarchive
@@ -39,35 +39,52 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Allow-Executable.gif?raw=true" alt="Allow App to Execute" />
 
+<a name="execute_app"/></a>
 #### Execute App
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Execute-App.gif?raw=true" alt="Execute App" />
 
 ### App Flow
 
-#### 1. Choose Folder
+[Choose Folder](#choose_folder)  
+[Add Metadata (Yes/No)](#add_metadata) 
+
+<b>Yes</b>
+ 
+    [Choose Release Title](#choose_title)
+    [Choose Artwork](#choose_artwork) 
+    [Pick Genre](#pick_genre) 
+    
+<b>No</b>
+
+<a name="choose_folder"/></a>
+#### Choose Folder
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Choose-Wav-Folder.gif?raw=true" alt="Choose Folder" />
 
-#### 2. Add Metadata (Yes/No)
+<a name="add_metadata"/></a>
+#### Add Metadata (Yes/No)
 
 Choosing No will start conversion immediately and save the mp3 with the file name information
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Add-Metadata.gif?raw=true" alt="Add Metadata" />
 
-#### 3a. Release Title (Metadata Yes)
+<a name="choose_title"/></a>
+##### Release Title
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Add-Release-Title.gif?raw=true" alt="Release Title" />
 
-#### 3b. Choose Artwork (Metadata Yes)
+<a name="choose_artwork"/></a>
+##### Choose Artwork
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Choose-Artwork.gif?raw=true" alt="Choose Artwork" />
 
-#### 3c. Pick Genre (Metadata Yes)
+<a name="pick_genre"/></a>
+##### Pick Genre
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Pick-Genre.gif?raw=true" alt="Pick Genre" />
 
-#### 3d. Reuse Metadata (Yes/No)
+##### 3d. Reuse Metadata (Yes/No)
 
 If there's more than 1 files in the folder, You'll be asked if you want to reuse the metadata for each track. If any of the above Metadata changes, please press No and go through the same process again.
 
