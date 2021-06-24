@@ -78,7 +78,7 @@ sudo spctl --master-disable
 <a name="add_metadata"/></a>
 #### Add Metadata (Yes/No)
 
-Choosing No will start conversion immediately and save the mp3 with the file name information
+Choose "No" to immediately start conversion and save the mp3
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Add-Metadata.gif?raw=true" alt="Add Metadata" />
 
@@ -100,7 +100,7 @@ Choosing No will start conversion immediately and save the mp3 with the file nam
 <a name="reuse"/></a>
 ##### Reuse Metadata (Yes/No)
 
-If there's more than 1 files in the folder, You'll be asked if you want to reuse the metadata for each track. If any of the above Metadata changes, please press No and go through the same process again.
+You will be asked if you want to reuse the metadata for each track. If any of the above Metadata changes, choose "No" and go through the same process again.
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Reuse-Metadata.gif?raw=true" alt="Reuse Metadata" />
 
