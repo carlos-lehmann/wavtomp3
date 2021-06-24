@@ -21,7 +21,9 @@ the pydub package uses ffmpeg for the conversion, so you'll need to install it:
 - files will be exported to the same directory as the wav file location
 - Default genre when choosing Metadata is Drum & Bass (because I like it ;-))
 
-### Flow
+### Download, Execute App & App Flow
+
+![Download & Unarchive](https://gifs.com/gif/lR5835)
 
 1.
 
