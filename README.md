@@ -34,7 +34,7 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 1. [Choose Folder](#choose_folder)  
 2. [Add Metadata (Yes/No)](#add_metadata) 
 
-### Yes
+### Metadata Yes
 
 - [Choose Release Title](#choose_title)
 - [Choose Artwork](#choose_artwork) 
@@ -42,12 +42,12 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 
 Next wav file will be processed...
 
-### Reuse Metadata (Yes/No)
-  <b>Yes</b> Repeat until all files processed > [Convert & Save MP3](#convert)
+#### Reuse Metadata (Yes/No)
+  <b><u>Yes</b></u> Repeat until all files processed > [Convert & Save MP3](#convert)
   
-  [<b>No</b> start Metadata process again](#reuse)
+  <u><b>No</u></b> start Metadata process again > [Reuse Metadata](#reuse)
 
-### No
+### Metadata No
  
 3. [Convert & Save MP3](#convert)
 4. [Result](#result)
