@@ -73,6 +73,6 @@ you'll be asked if you want to reuse the metadata. If any of the above Metadata 
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Finished-Conversion.png?raw=true" alt="Result" />
 
-### Don't forget to redo your changes for the executable
+### Don't forget to undo your changes for the executable
 
     sudo spctl --master-enable
