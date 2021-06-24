@@ -35,7 +35,9 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 <a name="allow_app"/></a>
 #### Allow App to Execute
 
-    sudo spctl --master-disable
+```bash
+sudo spctl --master-disable
+```
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Allow-Executable.gif?raw=true" alt="Allow App to Execute" />
 
@@ -50,10 +52,10 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 [Add Metadata (Yes/No)](#add_metadata) 
 
 <b>Yes</b>
- 
-    [Choose Release Title](#choose_title)
-    [Choose Artwork](#choose_artwork) 
-    [Pick Genre](#pick_genre) 
+
+  [Choose Release Title](#choose_title)
+  [Choose Artwork](#choose_artwork) 
+  [Pick Genre](#pick_genre) 
     
 <b>No</b>
 
