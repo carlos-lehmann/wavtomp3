@@ -23,7 +23,7 @@ the pydub package uses ffmpeg for the conversion, so you'll need to install it:
 
 ### Download, Execute App & App Flow
 
-![Download & Unarchive](https://j.gifs.com/lR5835.gif)
+<img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Download-Unarchive.gif?raw=true" alt="Download & Unarchive" />
 
 1.
 
