@@ -25,9 +25,9 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 ### Download, Execute App (MacOS)
  
 1. [Install FFMPEG](#prereqs) 
-2. [Download & Unarchive](#download_unarchive)  
+2. [Download & Unarchive wavtomp3](#download_unarchive)  
 3. [Allow App to Execute](#allow_app)  
-4. [Execute App](#execute_app)
+4. [Execute App wavtomp3](#execute_app)
 
 ### App Flow
 
