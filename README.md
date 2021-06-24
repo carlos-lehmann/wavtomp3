@@ -50,6 +50,7 @@ Next wav file will be processed...
  
 3. [Convert & Save MP3](#convert)
 4. [Result](#result)
+5. [Undo allowing App to Execute](#undo)
   
 <a name="download_unarchive"/></a>
 #### Download & Unarchive
@@ -114,6 +115,7 @@ You will be asked if you want to reuse the metadata for each track. If any of th
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Finished-Conversion.png?raw=true" alt="Result" />
 
+<a name="undo"/></a>
 ### Don't forget to undo your changes for the executable
 
 ```bash
