@@ -39,27 +39,29 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 
 ### App Flow
 
-#### Choose Folder
+#### 1. Choose Folder
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Choose-Wav-Folder.gif?raw=true" alt="Choose Folder" />
 
-#### Add Metadata (Yes/No)
+#### 2. Add Metadata (Yes/No)
+
+No Metadata will start conversion and save the file in the same directory.
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Add-Metadata.gif?raw=true" alt="Add Metadata" />
 
-#### Release Title (Metadata Yes)
+#### 3a. Release Title (Metadata Yes)
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Add-Release-Title.gif?raw=true" alt="Release Title" />
 
-#### Choose Artwork (Metadata Yes)
+#### 3b. Choose Artwork (Metadata Yes)
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Choose-Artwork.gif?raw=true" alt="Choose Artwork" />
 
-#### Pick Genre (Metadata Yes)
+#### 3c. Pick Genre (Metadata Yes)
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Pick-Genre.gif?raw=true" alt="Pick Genre" />
 
-#### Reuse Metadata (Yes/No)
+#### 3d. Reuse Metadata (Yes/No)
 
 you'll be asked if you want to reuse the metadata. If any of the above Metadata changes, please press No and go through the same process again.
 
