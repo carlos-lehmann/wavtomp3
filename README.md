@@ -21,12 +21,18 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 - files will be exported to the same directory as the wav file location
 - Default genre when choosing Metadata is Drum & Bass (because I like it ;-))
 
-### Download, Execute App
+### Download, Execute App (MacOS)
 
+##### Table of Contents  
+[Download & Unarchive](#download_unarchive)  
+[Allow App to Execute](#allow_app)  
+
+<a name="download_unarchive"/>
 #### Download & Unarchive
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Download-Unarchive.gif?raw=true" alt="Download & Unarchive" />
 
+<a name="allow_app"/>
 #### Allow App to Execute
 
     sudo spctl --master-disable
