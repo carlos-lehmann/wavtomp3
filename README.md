@@ -27,12 +27,12 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 [Download & Unarchive](#download_unarchive)  
 [Allow App to Execute](#allow_app)  
 
-<a name="download_unarchive"/>
+<a name="download_unarchive"/></a>
 #### Download & Unarchive
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Download-Unarchive.gif?raw=true" alt="Download & Unarchive" />
 
-<a name="allow_app"/>
+<a name="allow_app"/></a>
 #### Allow App to Execute
 
     sudo spctl --master-disable
