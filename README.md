@@ -16,7 +16,7 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 
 ### Default settings
 - files are expected in format "artist - tracktitle.wav"
-- the above information will be used as minimal configuration metadata for the id3 tags
+- the file name will be used as minimal configuration metadata for the id3 tags
 - bitrate is hard coded to 320k
 - files will be exported to the same directory as the wav file location
 - Default genre when choosing Metadata is Drum & Bass (because I like it ;-))
@@ -45,7 +45,7 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 
 #### 2. Add Metadata (Yes/No)
 
-No Metadata will start conversion and save the file in the same directory.
+Choosing No will start conversion immediately and save the mp3 with the file name information
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Add-Metadata.gif?raw=true" alt="Add Metadata" />
 
@@ -63,7 +63,7 @@ No Metadata will start conversion and save the file in the same directory.
 
 #### 3d. Reuse Metadata (Yes/No)
 
-you'll be asked if you want to reuse the metadata. If any of the above Metadata changes, please press No and go through the same process again.
+If there's more than 1 files in the folder, You'll be asked if you want to reuse the metadata for each track. If any of the above Metadata changes, please press No and go through the same process again.
 
 <img src="https://github.com/carlos-lehmann/wavtomp3/blob/main/readme-content/Reuse-Metadata.gif?raw=true" alt="Reuse Metadata" />
 
