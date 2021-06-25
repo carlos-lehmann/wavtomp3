@@ -31,6 +31,8 @@ the pydub package uses <b>ffmpeg</b> for the conversion, so you'll <b>need to in
 
 ### App Flow
 
+![Drawio Diagram](readme-content/wavtomp3.png)
+
 1. [Choose Folder](#choose_folder)  
 2. [Add Metadata (Yes/No)](#add_metadata) 
 
