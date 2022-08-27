@@ -1,8 +1,7 @@
 import eyed3
 import os
 import sys
-import tkinter
-from tkinter import filedialog,messagebox,simpledialog,StringVar,IntVar,OptionMenu,Button,Frame,BOTH,Label
+from tkinter import filedialog,messagebox,simpledialog,StringVar,IntVar,OptionMenu,Button,Frame,BOTH,Label,Tk,Toplevel
 from datetime import datetime
 from pydub import AudioSegment
 
@@ -15,8 +14,7 @@ genre_set = False
 all_metadata_set = False
 cancelled = False
 success_str = ""
-
-root = tkinter.Tk()
+root = Tk()
 root.withdraw() # CLOSE BACKGROUND TKINTER WINDOW
 
 ### FUNCTION GET WORKING DIR WITH TKINTER ###
@@ -87,7 +85,6 @@ class Window(Frame):
         
         text = Label(self, text="In Progress...")
         text.place(x=30,y=30)
-        #text.pack()
 
 messagebox.showinfo(title="Welcome!",message="Welcome to wavtomp3 converter!\n\nPlease choose the folder your wav files are placed for conversion!")
 
@@ -165,7 +162,7 @@ else:
                                                 break
                                             
                                             if artwork_set and title_set:
-                                                top = tkinter.Toplevel(root)                    
+                                                top = Toplevel(root)
                                                 top.title("Pick A Genre:")
                                                 genre_var = StringVar(top)
                                                 ok_var = IntVar()
@@ -232,7 +229,7 @@ else:
                                             break
                                         
                                         if artwork_set and title_set:
-                                            top = tkinter.Toplevel(root)                    
+                                            top = Toplevel(root)
                                             top.title("Pick A Genre:")
                                             genre_var = StringVar(top)
                                             ok_var = IntVar()
@@ -283,7 +280,7 @@ else:
         messagebox.showinfo(title="Failure!",message="Problem fetching correct directory! Program closed!")
 
 if not cancelled:
-    parent = tkinter.Toplevel(root)
+    parent = Toplevel(root)
     app = Window(parent)
     parent.wm_title("Conversion")
     parent.geometry("200x100")
